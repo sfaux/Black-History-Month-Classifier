@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/drive/folders/1chZ35Pr0dVVdvsXrHrizjG_fREJXoXts'
+export_file_url = 'https://drive.google.com/file/d/1jpK1LnfWpUdwSd4FGenoLdmUY-BLa5n3/view?usp=sharing'
 export_file_name = 'export.pkl'
 
 classes = ["MLK", "Maya Angelou", "Arethra Franklin", "Barack Obama", "Beyonce", "Jackie Robinson", "Malcolm X", "Serena Williams", "Toni Morrison", "Whitney Houston"]
