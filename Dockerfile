@@ -7,6 +7,9 @@ COPY requirements.txt .
 
 RUN pip install --upgrade -r requirements.txt
 
+RUN pip uninstall — yes Pillow
+RUN pip install ‘Pillow==6.1’
+
 COPY app app/
 
 RUN python app/server.py
