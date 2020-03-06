@@ -12,7 +12,7 @@ from starlette.staticfiles import StaticFiles
 export_file_url = 'https://drive.google.com/file/d/1jpK1LnfWpUdwSd4FGenoLdmUY-BLa5n3/view?usp=sharing'
 export_file_name = 'export.pkl'
 
-classes = ["MLK", "Maya Angelou", "Arethra Franklin", "Barack Obama", "Beyonce", "Jackie Robinson", "Malcolm X", "Serena Williams", "Toni Morrison", "Whitney Houston"]
+classes = ['MLK', 'Maya Angelou', 'Arethra Franklin', 'Barack Obama', 'Beyonce', 'Jackie Robinson', 'Malcolm X', 'Serena Williams', 'Toni Morrison', 'Whitney Houston']
 path = Path(__file__).parent
 
 app = Starlette()
